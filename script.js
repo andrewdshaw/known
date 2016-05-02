@@ -1,6 +1,5 @@
-$(document).ready(function(){
-	$('div').mouseenter(function{
-		$('div').hide();
-	});
-	
+$(document).ready(function() {
+    $('div').click(function() {
+        $('div').fadeOut('slow');
+    });
 });
