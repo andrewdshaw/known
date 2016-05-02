@@ -1,3 +1,6 @@
 $(document).ready(function(){
-		$('div').slideDown('slow');
+	$('div').mouseenter(function{
+		$('div').hide();
+	});
+	
 });
